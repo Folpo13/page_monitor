@@ -11,7 +11,7 @@ INTERVAL = 60 * 10  # controlla ogni 10 minuti
 
 # Telegram config
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TELEGRAM_CHAT_ID = int(os.getenv("TELEGRAM_CHAT_ID"))
 
 # ---- fine config ----
 
